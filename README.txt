@@ -6,7 +6,7 @@ The official repository is at
 
 and you can read the docs online here:
 
-    http://readthedocs.org/docs/khmer/en/latest/
+    https://khmer.readthedocs.org/en/legacy/
 
 There are two mailing lists dedicated to khmer, an announcements-only list and
 a discussion list. To search their archives and sign-up for them, please visit
