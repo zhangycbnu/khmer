@@ -15,7 +15,6 @@ Reads FASTQ and FASTA input, retains format for output.
 """
 
 import argparse
-import khmer
 import screed
 import os.path
 import random
