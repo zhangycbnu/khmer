@@ -400,6 +400,20 @@ and separate paired from orphans.
 
       scripts/interleave-reads.py tests/test-data/paired.fq.1 tests/test-data/paired.fq.2 -o paired.fq
 
+**sample-reads-randomly.py:** randomly (and uniformly) sample reads from a large collection of reads.
+
+  Usage::
+
+      sample-reads-randomly.py <file> [ -o output ] [ -S num_samples_to_take ] [ -N num_reads ] [ -M max_reads_to_sample_from ]
+
+  100,000 reads (or -N) are subsampled once (or -S times) from up to
+  100 million reads (or -M).  The output is placed in '-o' (for a
+  single sample) or in <file>.subset.0 to <file>.subset.S-1 (for more
+  than one sample).
+
+  This script uses the `reservoir sampling
+  <http://en.wikipedia.org/wiki/Reservoir_sampling>`__ algorithm.
+
 **split-paired-reads.py:** split interleaved read files into two files, one left and one right.
 
    Usage::
