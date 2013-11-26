@@ -1,6 +1,10 @@
-2013-11-22  Michael R. Crusoe  <mcrusoe@msu.edu>
+2013-11-26  Michael R. Crusoe  <mcrusoe@msu.edu>
 
 * Documented release process
+
+2013-11-22  CS Welcher  <cs.welcher@gmail.com>
+
+* Makefile: Added debug target for profiling.
 
 2013-10-21  Michael R. Crusoe  <mcrusoe@msu.edu>
 
