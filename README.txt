@@ -2,10 +2,11 @@ Welcome to khmer, k-mer counting, filtering and graph traversal FTW!
 
 ===
 
-This is the LEGACY branch. khmer can now be installed with `pip install khmer`
+This is the LEGACY branch and is out of date. Development occurs on the master branch.
+Additionally khmer can now be installed with the command `pip install khmer`
 
-See https://github.com/ged-lab/khmer/tree/master or https://khmer.readthedocs.org/en/latest/ for more information.
-Or checkout the 'master' branch.
+See https://github.com/ged-lab/khmer/tree/master or
+https://khmer.readthedocs.org/en/latest/ for more information.
 
 ===
 
